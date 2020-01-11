@@ -2,6 +2,7 @@ import jieba
 import wordcloud
 t = ""
 f = open('./新时代中国特色社会主义.txt', 'r')
+
 for i in f:
     t += f.read()
 f.close()
